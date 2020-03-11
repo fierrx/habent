@@ -1,5 +1,6 @@
-.body{
-	font-family: "poppins";
+body{
+	font-family: 'Nunito', sans-serif;
+	overflow-x: hidden;
 }
 section{
 	padding-top: 60px;
@@ -8,10 +9,9 @@ section{
 .banner{
 	height: 80vh;
 	width: 100%;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	display: grid;
 	grid-template-columns: 60% 40%;
-	grid-column: 1fr 1fr;
 }
 .content_title{
 	display: flex;
@@ -51,6 +51,23 @@ section{
 	position: absolute;
 	left: 64%;
 	top: -113px;
+}
+.title_content h1{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.main-services__grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 50px;
+}
+.cards{
+	width: 100%;
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 }    
 .content_capa{
 	background-image:url(../images/Capa7.png);
@@ -78,6 +95,10 @@ section{
 	color: #ff477b;
 	border-radius: 10px;
 	transition: .5s;
+}
+a.botn-general{
+	text-decoration: none;
+	color: #ff477b;
 }
 .mask{
 	background: #5f47ff30;
