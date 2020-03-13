@@ -13,12 +13,12 @@ section{
 	display: grid;
 	grid-template-columns: 60% 40%;
 }
-.content_title{
+.conten_title{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-.content_title h1{
+.conten_title h1{
 	font-size: 4.5rem;
 	font-weight: bold;
 }
@@ -58,17 +58,28 @@ section{
 }
 .main-services__grid{
 	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-gap: 50px;
+	grid-template-columns: 39% 39%;
+	grid-gap: 35px;
+}
+.content-print img{
+	width: 64px;
 }
 .cards{
+	display: grid;
+	grid-template-columns: 20% 75%;
 	width: 100%;
-	padding: 50px;
-	display: flex;
+	padding: 20px;
 	align-items: center;
-	border-radius: 10px;
+	border-radius: 5%;
 	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
-}    
+} 
+.cards-body h5{
+	font-size: 20px;
+	font-weight: bold;
+}
+.cards-text{
+	font-size: 15px;
+}
 .content_capa{
 	background-image:url(../images/Capa7.png);
 	display: flex;

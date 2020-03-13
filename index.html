@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
 
   <link rel="stylesheet" href="css/app.css">
@@ -42,7 +43,7 @@
 <!--banner principal-->
 <section>
   <div class="container banner">
-    <div class="content_title col-xs-12">
+    <div class="conten_title">
       <h1>HABENT MASCOTAS</h1>
       <div class="subtitle_banner">
         <p>Cuidadores y hospedaje de mascotas</p>
@@ -67,38 +68,45 @@
     <div class="title_content">
       <h1>Servicios</h1>
     </div>
-
     <div class="main-services__grid" >
       <div class="cards">
-        <img src="...">
+        <div class="content-print">
+          <img src="images/animal(1).png">
+        </div>
         <div class="cards-body">
-          <h5 class="cards-title">Paseo</h5>
-          <p class="cards-text">Soluciones al momento, no te preocupes! para esos paseos merecidos que no podemos darle</p>
+          <h5 class="cards-title">Paseos</h5>
+          <p class="cards-text">Soluciones al momento, no te preocupes! para esos paseos merecidos que no podemos darles.</p>
         </div>
       </div>
 
       <div class="cards">
-        <img src="...">
+        <div class="content-print">
+          <img src="images/pet.png">
+        </div>
         <div class="cards-body">
-          <h5 class="cards-title">Card title</h5>
-          <p class="cards-text">Soluciones al momento</p>
+          <h5 class="cards-title">Visita a domicilio</h5>
+          <p class="cards-text">Si no buscas un cuidador/cuidadora a tiempo completo ¡esta es tu opcion perfecta!</p>
         </div>
       </div>
 
 
       <div class="cards">
-        <img src="...">
+        <div class="content-print">
+          <img src="images/sun.png">
+        </div>
         <div class="cards-body">
-          <h5 class="cards-title">Card title</h5>
-          <p class="cards-text">Soluciones al momento</p>
+          <h5 class="cards-title">Guarderia  de dia</h5>
+          <p class="cards-text">¿Se te a complicado el dia y necesitas que alguien se ocupe de tu mascota? ¡Aqui te damos la solucion!</p>
         </div>
       </div>
 
       <div class="cards">
-        <img src="...">
+        <div class="content-print">
+          <img src="images/dog(1).png">
+        </div>
         <div class="cards-body">
-          <h5 class="cards-title">Card title</h5>
-          <p class="cards-text">Soluciones al momento</p>
+          <h5 class="cards-title">Cuidador/a a domicilio</h5>
+          <p class="cards-text">¿Vienes a cuidarme a casa? Ideal para mascotas que piensan que : ¡como en casa en ningun sitio!</p>
         </div>
       </div>
 
@@ -120,8 +128,33 @@
 </section>
 <!-- registro-->    
 
+<!---Carrousel-->
+<section>
+  <div class="container walkers">
+    <div class="content_title">
+      <h1>Ultimos Paseadores</h1>
+    </div>
+    <div id="carouselwalkers">
+      <div class="main-content_walkers">
+        <div class="imagen-carousel">
+          <img src="images/banco.png" class="d-block w-35" alt="...">
+        </div>
+        <div class="imagen-carousel">
+          <img src="images/claro.png" class="d-block w-35" alt="...">
+        </div>
+        <div class="imagen-carousel">
+          <img src="images/roco.png" class="d-block w-35" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---/Carrousel-->
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
